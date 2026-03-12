@@ -1,0 +1,20 @@
+# Core Dependencies
+python-dotenv>=1.0.0              # Environment variable management
+numpy>=1.24.0                     # Numerical computing
+
+# LLM and API
+groq>=0.4.0                       # Groq API client
+
+# Retrieval Augmented Generation (RAG)
+langchain-text-splitters>=0.0.1   # Text chunking utilities
+sentence-transformers>=2.2.0      # Embedding models
+rank-bm25>=0.2.2                  # BM25 ranking
+faiss-cpu>=1.7.4                  # Vector similarity search
+
+# Voice Processing
+SpeechRecognition>=3.10.0         # Speech-to-text
+gTTS>=2.3.0                       # Text-to-speech
+pyaudio>=0.2.13                   # Audio device interface (optional for voice)
+
+# Type Checking (Development)
+typing-extensions>=4.7.0          # Advanced type hints
